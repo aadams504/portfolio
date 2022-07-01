@@ -67,6 +67,33 @@ body {
     border-radius: 50%;
     padding: 0 20px;
   }
+
+  @media screen and (max-width: 650px) {
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: $headerLight;
+      background-color: $banner;
+      padding: 0 8rem;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      margin: 1rem 0;
+      color: $headerLight;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    img {
+      width: 35%;
+    }
+  }
 }
 
 .announcements {
@@ -79,6 +106,15 @@ body {
     margin: 1.2rem auto;
     border-radius: 10px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+
+  @media screen and (max-width: 650px) {
+    img {
+      display: flex;
+      flex-direction: column;
+      max-width: 35%;
+      max-height: 30%;
+    }
   }
 }
 
@@ -105,5 +141,11 @@ body {
 
   img {
     border-radius: 50%;
+  }
+
+  @media screen and (max-width: 650px) {
+    img {
+      max-width: 15%;
+    }
   }
 }

@@ -13,13 +13,13 @@ const BackgroundComponent = () => {
         <img id='image' src={bgImage} alt='' />
 
         <div className="social">
-          <a href='https://www.linkedin.com/in/adams-arianna'>
+          <a href='https://www.linkedin.com/in/adams-arianna' target="_blank" rel="noopener noreferrer">
             <FaLinkedin className='social-icon' size={40} style={{color: '#fff', marginRight: '1rem', padding: '10px'}} />
           </a>
-          <a href='https://github.com/aadams504'>
+          <a href='https://github.com/aadams504' target="_blank" rel="noopener noreferrer">
             <FaGithub className='social-icon' size={40} style={{color: '#fff', marginRight: '1rem', padding: '10px'}} />
           </a>
-          <a href='"mailto:contact@arianna.codes"'>
+          <a href='"mailto:contact@arianna.codes"' target="_blank" rel="noopener noreferrer">
             <FaMailBulk className='social-icon' size={40} style={{color: '#fff', marginRight: '1rem', padding: '10px'}} />
           </a>
         </div>

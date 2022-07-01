@@ -18,7 +18,6 @@ import DockerIcon from "../assets/images/docker.png";
 import PostgresIcon from "../assets/images/postgre.png";
 import MySQLIcon from "../assets/images/mysql.png";
 
-import Portfolio from './Portfolio';
 
 const AnnouncementsComponent = () => {
   return (

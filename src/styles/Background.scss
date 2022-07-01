@@ -1,0 +1,66 @@
+.hero {
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
+
+  .content {
+    text-align: right;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    top: 20vh;
+
+    @media screen and (max-width: 640px) {
+      h1 {
+        font-size: 3rem;
+      }
+
+      p {
+        font-size: 1.4rem;
+        margin-bottom: 1.6rem;
+      }
+    }
+  }
+
+  h1 {
+    font-size: 5rem;
+    color: #fff3fa;
+    padding-right: 10px;
+  }
+
+  p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    margin-right: 10rem;
+    padding-bottom: 4rem;
+    color: #fff3fa;
+  }
+
+  .btn {
+    margin: 1rem 0.5rem;
+    background-color: rgba(237, 94, 147, 0.5);
+
+    :hover {
+      background-color: rgba(237, 94, 148, 0.9);
+      transition: ease-in linear 300;
+    }
+  }
+}
+
+#image {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+#spaceship {
+  margin-top: 4rem;
+  margin-right: 4rem;
+  width: 250px;
+  height: 300px;
+}

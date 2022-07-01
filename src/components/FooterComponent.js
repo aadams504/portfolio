@@ -15,8 +15,8 @@ const FooterComponent = () => {
         </div>
         <div className="center copy">
                 <p>
-                &copy; 2022 Arianna Adams | All Rights Reserved |
-                Images from <a href='http://www.unsplash.com'>Unsplash</a>
+                &copy; 2022 Arianna Adams |
+                Background Image from <a href='http://www.unsplash.com'>Unsplash</a>
                 </p>
             </div>
     </div>

@@ -94,6 +94,33 @@ body {
       width: 35%;
     }
   }
+
+  @media screen and (max-width: 440px) {
+    h1 {
+      font-size: 1.2rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+      color: $headerLight;
+      background-color: $banner;
+      padding: 0 8rem;
+    }
+
+    h3 {
+      font-size: 0.5rem;
+      margin: 1rem 0;
+      color: $headerLight;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    img {
+      width: 20%;
+    }
+  }
 }
 
 .announcements {
@@ -113,6 +140,15 @@ body {
       display: flex;
       flex-direction: column;
       max-width: 35%;
+      max-height: 30%;
+    }
+  }
+
+  @media screen and (max-width: 440px) {
+    img {
+      display: flex;
+      flex-direction: column;
+      max-width: 30%;
       max-height: 30%;
     }
   }

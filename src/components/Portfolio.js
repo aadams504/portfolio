@@ -15,7 +15,7 @@ const Portfolio = () => {
           <img src={Clothing} alt="" />
           </a>
           <div className="card__head">Crwn Clothing
-          <p style={{color: 'white'}}>React, Redux, Firebase, Stripe</p></div>
+          <p style={{color: 'white', fontSize: '16px'}}>React, Redux, Firebase, Stripe API</p></div>
         </div>
         <div className="card">
           <a href="https://sunny-kelpie-ad37da.netlify.app" target="_blank" rel="noopener noreferrer">

@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Background.scss';
 import {Link} from 'react-scroll';
 
-import {FaGithub, FaLinkedin, FaMailBulk} from 'react-icons/fa';
+import {FaGithub, FaLinkedin,} from 'react-icons/fa';
 
 // import Spaceship from '../assets/images/ufo.png';
 import bgImage from '../assets/images/bg.jpg';

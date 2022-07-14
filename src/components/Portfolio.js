@@ -3,6 +3,7 @@ import "../styles/Portfolio.scss";
 import Movies from "../assets/images/movies.png";
 import Game from "../assets/images/game.png";
 import Clothing from "../assets/images/clothing.png";
+import PortfolioImage from "../assets/images/portfolio.png";
 
 const Portfolio = () => {
   return (
@@ -40,15 +41,31 @@ const Portfolio = () => {
         </div>
         <div className="card">
           <a
-            href="https://elegant-raindrop-060bbe.netlify.app"
+            href="https://update-movie-app.vercel.app/?genre=fetchActionMovies"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={Movies} alt="" />
           </a>
           <div className="card__head">
-            Movie Ratings App
-            <p style={{ color: "white" }}>HTML, CSS, Javascript</p>
+            Hulu
+            <p style={{ color: "white" }}>
+              React, Next.js, TailwindCSS, TMDB API
+            </p>
+          </div>
+        </div>
+        <br />
+        <div className="card">
+          <a
+            href="https://update-movie-app.vercel.app/?genre=fetchActionMovies"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={PortfolioImage} alt="" />
+          </a>
+          <div className="card__head">
+            Portfolio
+            <p style={{ color: "white" }}>React, SCSS</p>
           </div>
         </div>
       </div>

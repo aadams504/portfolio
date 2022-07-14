@@ -19,7 +19,7 @@ const Portfolio = () => {
             <img src={Clothing} alt="" />
           </a>
           <div className="card__head">
-            Crwn Clothing
+            Ecommerce Site
             <p style={{ color: "white", fontSize: "16px" }}>
               React, Redux, Firebase, Stripe API
             </p>
@@ -35,7 +35,7 @@ const Portfolio = () => {
           </a>
 
           <div className="card__head">
-            Road Brawlers
+            Local 2-Player Game
             <p style={{ color: "white" }}>Javascript</p>
           </div>
         </div>
@@ -48,7 +48,7 @@ const Portfolio = () => {
             <img src={Movies} alt="" />
           </a>
           <div className="card__head">
-            Hulu
+            Streming Site
             <p style={{ color: "white" }}>
               React, Next.js, TailwindCSS, TMDB API
             </p>

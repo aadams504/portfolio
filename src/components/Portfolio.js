@@ -57,7 +57,7 @@ const Portfolio = () => {
         <br />
         <div className="card">
           <a
-            href="https://update-movie-app.vercel.app/?genre=fetchActionMovies"
+            href="https://www.arianna.codes"
             target="_blank"
             rel="noopener noreferrer"
           >

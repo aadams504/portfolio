@@ -10,28 +10,31 @@ app.use("/", router);
 app.listen(5000, () => console.log("Server Running"));
 
 const contactEmail = nodemailer.createTransport({
-  service: 'gmail',
+  service: "gmail",
   auth: {
     user: "ariannaadams504@gmail.com",
-    pass: "ymyqukkzjdnwfmin",
+    pass: "jnhbhsdlktolsedd",
   },
 });
 
+contactEmail.verify((error) => {
+  if (error) {
+    console.log(error);
+  } else {
+    console.log("Ready to Send");
+  }
+});
 
 router.post("/contact", (req, res) => {
-  const firstName = req.body.firstName;
-  const lastName = req.body.lastName;
+  const name = req.body.name;
   const email = req.body.email;
-  const phone = req.body.phone;
-  const message = req.body.message; 
+  const message = req.body.message;
   const mail = {
-    from: firstName,
+    from: name,
     to: "ariannaadams504@gmail.com",
     subject: "Contact Form Submission",
-    html: `<p>First Name: ${firstName}</p>
-           <p>Last Name: ${lastName}</p>
+    html: `<p>Name: ${name}</p>
            <p>Email: ${email}</p>
-           <p>Phone: ${phone}</p>
            <p>Message: ${message}</p>`,
   };
   contactEmail.sendMail(mail, (error) => {
@@ -42,6 +45,3 @@ router.post("/contact", (req, res) => {
     }
   });
 });
-
-const http = require('http'); 
-const server = http.createServer(app); server.listen(5000);

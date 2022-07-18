@@ -38,11 +38,15 @@ const Contact = () => {
     let result = await response.json();
   };
   return (
-    <div id="contact" className="container announcements">
+    <div
+      name="portfolio-contact"
+      id="contact-form"
+      className="container announcements"
+    >
       <h2>Contact Me</h2>
 
       <div className="contact-card">
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} data-netlify="true">
           <div className="row">
             <div className="col">
               <div className="form-group">

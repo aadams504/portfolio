@@ -46,7 +46,7 @@ const Contact = () => {
       <h2>Contact Me</h2>
 
       <div className="contact-card">
-        <form onSubmit={handleSubmit} data-netlify="true">
+        <form onSubmit={handleSubmit}>
           <div className="row">
             <div className="col">
               <div className="form-group">

@@ -48,7 +48,7 @@ const Portfolio = () => {
             <img src={Movies} alt="" />
           </a>
           <div className="card__head">
-            Streming Site
+            Streaming Site
             <p style={{ color: "white" }}>
               React, Next.js, TailwindCSS, TMDB API
             </p>
